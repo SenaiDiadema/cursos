@@ -49,6 +49,8 @@ h1.inicio{
     font-size: 2em;
     text-align: center;
     text-transform: uppercase;
+    color: rgb(252, 94, 94);
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;
     font-family:'Reem Kufi Fun', sans-serif;
 }
 footer{
@@ -63,9 +65,12 @@ h6{
     font-family:'Reem Kufi Fun', sans-serif;
     text-align: center;
     font-size: 1.6em;
-    margin: 50px 0px 0px 0px;
+    margin: 0;
 }
 
+hr{
+    margin: 20px;
+}
 @media (max-width:900px){
     .alinhar{
         margin: auto;
@@ -73,9 +78,9 @@ h6{
         height: 51vw;
     }
     h1.inicio{
-        font-size: 1.2em;
+        font-size: 2em;
     }
     h6{
-        font-size: 1.9em;
+        font-size: 1.4em;
     }
 }

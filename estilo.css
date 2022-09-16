@@ -5,7 +5,7 @@
     height: 80px;
     background-image: url('imagens/logo-senai1.png');
     background-size: cover;
-    background-position: CENTER;
+    background-position: center center;
 }
 .resp{
     display: inline-block;

@@ -21,7 +21,8 @@ img{
 .resp h1{
     font-family: 'Reem Kufi Fun', sans-serif;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 15px;
+    height: 70px;
     margin-top: auto;
 }
 

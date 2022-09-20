@@ -8,13 +8,13 @@ img{
 .resp{
     display: inline-block;
     padding: 50px;
-    width: 70%;
+    width: 33%;
     text-align: center;
     border-bottom: 2px solid red;
 }
 
 .resp iframe{
-    height: 30vw;
+    height: 20vw;
     width: 100%;
 }
 
@@ -33,12 +33,14 @@ img{
 }
 .alinhar{
     margin: auto;
-    width: 90%;
+    width: 80%;
+    height: 700px;
 }
 
 .alinhar iframe{
+    text-align: center;
     width: 100%;
-    height: 1000px;
+    height: 100%;
 }
 
 h1.inicio{
@@ -64,6 +66,22 @@ h6{
     margin: 0;
 }
 
+@media (min-width: 1200px) {
+    .alinhar{
+        margin: auto;
+        width: 60%;
+    }
+
+    .resp iframe{
+        height: 13vw;
+        width: 100%;
+    }
+
+    .resp{
+        width: 25%;
+    }
+}
+
 @media (max-width:900px){
     h1.inicio{
         font-size: 1.5em;
@@ -71,12 +89,24 @@ h6{
     h6{
         font-size: 1.4em;
     }
+    .alinhar{
+        margin: auto;
+        width: 80%;
+    }
+
     .alinhar iframe{
         width: 100%;
-        height: 500px;
+        height: 100%;
     }
     .resp iframe{
         height: 38vw;
         width: 100%;
+    }
+    .resp{
+        display: inline-block;
+        padding: 50px;
+        width: 90%;
+        text-align: center;
+        border-bottom: 2px solid red;
     }
 }
